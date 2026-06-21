@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .fashion-icon {
+        fill: none;
+        stroke: #FF6B9D;
+        stroke-width: 2;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+      .fashion-solid {
+        fill: #FF6B9D;
+      }
+    </style>
+  </defs>
+  
+  <!-- Dress/Clothing Shape -->
+  <path class="fashion-icon" d="M 30 20 L 40 35 L 35 35 L 35 70 Q 35 80 50 80 Q 65 80 65 70 L 65 35 L 60 35 L 70 20 Z"/>
+  
+  <!-- Hanger -->
+  <circle class="fashion-icon" cx="50" cy="15" r="3"/>
+  <path class="fashion-icon" d="M 45 15 L 55 15"/>
+  
+  <!-- Accent elements -->
+  <circle class="fashion-solid" cx="50" cy="50" r="2"/>
+  <circle class="fashion-solid" cx="40" cy="60" r="1.5"/>
+  <circle class="fashion-solid" cx="60" cy="60" r="1.5"/>
+</svg>
